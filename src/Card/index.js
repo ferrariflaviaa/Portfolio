@@ -1,11 +1,13 @@
 import { ContainerP, Titulo, Link } from './styled'
 
-export default function Card() {
+export default function Card({titulo, link, descricao}) {
 
     return (
         <ContainerP>
-            <Titulo>Desenho</Titulo>
-            <Link href='https://www.w3schools.com/css/css_margin.asp'>Link do projeto</Link>
+            <Titulo>{titulo}</Titulo>
+            <Link href={link} target="_blank">{descricao}</Link>
         </ContainerP>
+
+        
     )
 }

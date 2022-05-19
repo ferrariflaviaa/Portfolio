@@ -27,7 +27,7 @@ export const Perfil = styled.img`
 export const Title = styled.div`
   position: absolute;
   top: 100px;
-  left: 650px;
+  left: 850px;
   color: #fff;
 `
 
@@ -38,7 +38,8 @@ export const Description = styled.div`
   align-items: center;
   padding: 16px;
   top: 180px;
-  left: 555px;
+  /* left: 555px; */
+  left: 746px;
   color: #fff;
 `
 export const PBlack = styled.p`

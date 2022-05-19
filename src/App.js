@@ -39,7 +39,17 @@ function App() {
       </Redes>
       <Projeto>
         <h2>Projetos</h2>
-        <Card />
+        <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/"
+        descricao="link do projeto"/>
+        <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/"
+        descricao="link do projeto"/>
+        <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/"
+        descricao="link do projeto"/>
+        <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/"
+        descricao="link do projeto"/>
+        <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/"
+        descricao="link do projeto"/>
+        
         {/* <ContainerP>
           <h1>teste</h1>
         </ContainerP> */}

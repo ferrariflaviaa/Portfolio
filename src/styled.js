@@ -1,4 +1,4 @@
-import styled from "styled-components"; 
+import styled from "styled-components";
 
 
 export const Container = styled.div`
@@ -11,7 +11,7 @@ export const Header = styled.div`
   width:100%;
   height: 45%;
 `
-export const Img = styled.div `
+export const Img = styled.div`
 
   position: absolute;
   top: 60px;
@@ -69,11 +69,18 @@ export const Redes = styled.div`
 export const ImgM = styled.div`
   width: 100%;
   margin-top: 5px;
-
+  margin-left: 70px;
 `
 export const Socias = styled.img`
   /* width: 100%; */
   height: 40px;
-  margin-left: 5px;
+  margin-left: 10px;
+`
+
+export const Projeto = styled.div`
+  position: absolute;
+  top: 520px;
+  left: 190px;
+
 `
 

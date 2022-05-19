@@ -1,10 +1,11 @@
-import {Container, Header,Img, Perfil, Title, Description, PBlack, Redes, ImgM, Socias } from'./styled.js';
+import {Container, Header,Img, Perfil, Title, Description, PBlack, Redes, ImgM, Socias, Projeto, ContainerP } from'./styled.js';
 import './index.css';
 import perfil from './img/perfil.jpeg';
 import instagram from './img/instagram.png';
 import linkedin from './img/linkedin.png';
 import github from './img/github.png';
 import email from './img/o-email.png';
+import Card from './Card/index.js';
 
 
 function App() {
@@ -35,12 +36,14 @@ function App() {
           <Socias src={instagram} alt="Instagram" />
           <Socias src={email} alt="email" />
         </ImgM>
-        {/* <div className="imgM"> */}
-        {/* </div> */}
-        {/* <div className="imgM">
-          <img src={email} alt="email" />
-        </div> */}
       </Redes>
+      <Projeto>
+        <h2>Projetos</h2>
+        <Card />
+        {/* <ContainerP>
+          <h1>teste</h1>
+        </ContainerP> */}
+      </Projeto>
     </Container>
   );
 }

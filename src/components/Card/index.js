@@ -1,6 +1,6 @@
-import { ContainerP, Titulo, Link } from './styled'
+import { ContainerP, Titulo, Link, } from './styled'
 
-export default function Card({titulo, link, descricao}) {
+export default function Card({ titulo, link, descricao }) {
 
     return (
         <ContainerP>
@@ -8,6 +8,7 @@ export default function Card({titulo, link, descricao}) {
             <Link href={link} target="_blank">{descricao}</Link>
         </ContainerP>
 
-        
+
+
     )
 }

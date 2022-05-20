@@ -37,7 +37,7 @@ export const Description = styled.div`
   border: 3px solid #4B4952;
   align-items: center;
   padding: 16px;
-  top: 180px;
+  top: 160px;
   /* left: 555px; */
   left: 746px;
   color: #fff;
@@ -46,37 +46,7 @@ export const PBlack = styled.p`
   padding-top: -140px;
   color: #000000;
 `
-/* .border{
-  padding-left: 10px;
-  padding-top: 2px;
-  padding-bottom: -10px;
-  border: 3px solid;
-  border-right-color: #fff;
-  border-left-color: #fff;
-}
-.borderPBlack{
-  padding: 10px;
-  border: 3px solid;
-  border-right-color: #000000;
-  border-left-color: #000000;
-  border-bottom-color: #000000;
-} */
-// export const Redes = styled.div`
-//   position: absolute;
-//   top: 400px;
-//   left: 190px;
 
-// `
-// export const ImgM = styled.div`
-//   width: 100%;
-//   margin-top: 5px;
-//   margin-left: 70px;
-// `
-// export const Socias = styled.img`
-//   /* width: 100%; */
-//   height: 40px;
-//   margin-left: 10px;
-// `
 
 export const Projeto = styled.div`
   position: absolute;
@@ -87,4 +57,5 @@ export const Projeto = styled.div`
 export const TProjeto = styled.h1`
   font-size: 2rem;
 `
+
 

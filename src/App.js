@@ -26,22 +26,13 @@ function App() {
           </div>
         </Description>
       </Header>
-      {/* <Redes>
-        <h2>Redes Sociais</h2>
-        <ImgM>
-          <Socias src={linkedin} alt="linkedin" />
-          <Socias src={github} alt="github" />
-          <Socias src={instagram} alt="Instagram" />
-          <Socias src={email} alt="email" />
-        </ImgM>
-      </Redes> */}
       <Projeto>
         <TProjeto>Projetos</TProjeto>
-        <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/"
+        <Card titulo="Blog Codar" link="https://github.com/ferrariflaviaa/Blog-Codar"
         descricao="link do projeto"/>
-        <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/"
+        <Card titulo="WhyZap" link="https://github.com/ferrariflaviaa/WhyZap"
         descricao="link do projeto"/>
-        <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/"
+        <Card titulo="Projeto Pokdex" link="https://github.com/ferrariflaviaa/Projeto-Pokdex-"
         descricao="link do projeto"/>
         <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/"
         descricao="link do projeto"/>

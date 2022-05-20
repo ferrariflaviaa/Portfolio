@@ -61,27 +61,30 @@ export const PBlack = styled.p`
   border-left-color: #000000;
   border-bottom-color: #000000;
 } */
-export const Redes = styled.div`
-  position: absolute;
-  top: 400px;
-  left: 190px;
+// export const Redes = styled.div`
+//   position: absolute;
+//   top: 400px;
+//   left: 190px;
 
-`
-export const ImgM = styled.div`
-  width: 100%;
-  margin-top: 5px;
-  margin-left: 70px;
-`
-export const Socias = styled.img`
-  /* width: 100%; */
-  height: 40px;
-  margin-left: 10px;
-`
+// `
+// export const ImgM = styled.div`
+//   width: 100%;
+//   margin-top: 5px;
+//   margin-left: 70px;
+// `
+// export const Socias = styled.img`
+//   /* width: 100%; */
+//   height: 40px;
+//   margin-left: 10px;
+// `
 
 export const Projeto = styled.div`
   position: absolute;
-  top: 520px;
+  top: 420px;
   left: 190px;
 
+`
+export const TProjeto = styled.h1`
+  font-size: 2rem;
 `
 

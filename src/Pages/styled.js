@@ -48,14 +48,14 @@ export const PBlack = styled.p`
 `
 
 
-export const Projeto = styled.div`
-  position: absolute;
-  top: 420px;
-  left: 190px;
+// export const Projeto = styled.div`
+//   position: absolute;
+//   top: 420px;
+//   left: 190px;
 
-`
-export const TProjeto = styled.h1`
-  font-size: 2rem;
-`
+// `
+// export const TProjeto = styled.h1`
+//   font-size: 2rem;
+// `
 
 

@@ -1,5 +1,6 @@
 import { Container, Header, Img, Perfil, Title, Description, PBlack} from './styled.js';
 import perfil from './../img/perfil.jpeg';
+import Experiencias from './../components/Experiencias/index';
 import Projetos from './../components/Projetos/index';
 import Redes from './../components/Redes/index.js';
 
@@ -24,6 +25,7 @@ export default function Home() {
           </div>
         </Description>
       </Header>
+      <Experiencias/>
       <Projetos/>
       {/* <Projeto>
         <TProjeto>Projetos</TProjeto>
@@ -37,7 +39,7 @@ export default function Home() {
           descricao="link do projeto" />
 
       </Projeto> */}
-      <Redes />
+      {/* <Redes /> */}
     </Container>
 
   )

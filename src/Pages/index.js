@@ -3,6 +3,7 @@ import perfil from './../img/perfil.jpeg';
 import Experiencias from './../components/Experiencias/index';
 import Projetos from './../components/Projetos/index';
 import Redes from './../components/Redes/index.js';
+import Certificados from '../components/Certificados/index.js';
 
 export default function Home() {
 
@@ -27,19 +28,8 @@ export default function Home() {
       </Header>
       <Experiencias/>
       <Projetos/>
-      {/* <Projeto>
-        <TProjeto>Projetos</TProjeto>
-        <Card titulo="Blog Codar" link="https://github.com/ferrariflaviaa/Blog-Codar"
-          descricao="link do projeto" />
-        <Card titulo="WhyZap" link="https://github.com/ferrariflaviaa/WhyZap"
-          descricao="link do projeto" />
-        <Card titulo="Projeto Pokdex" link="https://github.com/ferrariflaviaa/Projeto-Pokdex-"
-          descricao="link do projeto" />
-        <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/"
-          descricao="link do projeto" />
-
-      </Projeto> */}
-      {/* <Redes /> */}
+      {/* <Certificados curso={"Cybersecurity Essentials - "} instituicao={"Cisco Networking Academy - "} data={"Outubro/2021"}/> */}
+      <Redes />
     </Container>
 
   )

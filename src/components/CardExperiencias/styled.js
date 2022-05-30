@@ -15,7 +15,7 @@ export const TD = styled.h4 `
     font-weight: 1000;
     font-size: 1rem;
     align-items: center;
-    margin: 5px 5px 10px;
+    margin: 5px 5px 10px; 
     flex-wrap: wrap;
 
 `

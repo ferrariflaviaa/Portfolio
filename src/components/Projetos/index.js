@@ -13,8 +13,7 @@ export default function Projetos() {
                 descricao="link do projeto" />
             <Card titulo="Projeto Pokdex" link="https://github.com/ferrariflaviaa/Projeto-Pokdex-"
                 descricao="link do projeto" />
-            <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/"
-                descricao="link do projeto" />
+            <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/" descricao="link do projeto" />
 
         </ContainerProjeto>
     )

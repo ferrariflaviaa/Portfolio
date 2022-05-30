@@ -6,7 +6,7 @@ export default function Card({ titulo, link, descricao }) {
         <ContainerP>
             <Titulo>{titulo}</Titulo>
             <Link href={link} target="_blank">{descricao}</Link>
-        </ContainerP>
+        </ContainerP> 
 
 
 

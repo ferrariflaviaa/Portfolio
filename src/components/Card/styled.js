@@ -1,32 +1,30 @@
 import styled from "styled-components";
 
-
-
 export const ContainerP = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100px;
-  /* margin-left: 350px; */
+  /* height: 100px; */
   margin: 50px 280px 20px;
-  /* padding: 10px 250px; */
-  background-color: #ABABAB;
-  border-radius: 80px;
-
-  &:hover{
-   background-color: #D1D1D1 ;
-  }
-  
+  border-bottom: 3px solid #4B4952;
+  font-family: 'Courier New', Courier, monospace;
+  left: 190px;  
 
 `
 export const Titulo = styled.h1`
-  font-family: 'Courier New', Courier, monospace;
+  font-weight: 1000;
+  align-items: center;
+  margin: 5px 5px 0px;
+  flex-wrap: wrap;
 
 `
 export const Link = styled.a`
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  align-items: center;
+  margin: 5px 5px 0px;
+  flex-wrap: wrap;
   cursor: pointer;
 
   &:visited{

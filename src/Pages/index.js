@@ -28,8 +28,8 @@ export default function Home() {
       </Header>
       <Experiencias/>
       <Projetos/>
-      {/* <Certificados curso={"Cybersecurity Essentials - "} instituicao={"Cisco Networking Academy - "} data={"Outubro/2021"}/> */}
-      <Redes />
+      {/* <Certificados /> */}
+      {/* <Redes /> */}
     </Container>
 
   )

@@ -3,6 +3,7 @@ import perfil from './../img/perfil.jpeg';
 import Experiencias from './../components/Experiencias/index';
 import Projetos from './../components/Projetos/index';
 import Redes from './../components/Redes/index.js';
+import Footer from './../components/Footer/index.js';
 import Certificados from '../components/Certificados/index.js';
 
 export default function Home() {
@@ -28,8 +29,7 @@ export default function Home() {
       </Header>
       <Experiencias/>
       <Projetos/>
-      {/* <Certificados /> */}
-      {/* <Redes /> */}
+      <Redes />
     </Container>
 
   )

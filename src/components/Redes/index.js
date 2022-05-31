@@ -1,4 +1,4 @@
-import { ContaineRedes, ImgM, Sociais } from "./styled";
+import { ContaineRedes, ImgM, Sociais, TRedes } from "./styled";
 import instagram from './../../img/instagram.png';
 import linkedin from './../../img/linkedin.png';
 import github from './../../img/github.png';
@@ -10,7 +10,7 @@ export default function Redes(){
 
     return(
         <ContaineRedes>
-        <h2>Redes Sociais</h2>
+        <TRedes>Redes Sociais</TRedes>
         <ImgM>
           <Sociais src={linkedin} alt="linkedin" />
           <Sociais src={github} alt="github" />

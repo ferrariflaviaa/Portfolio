@@ -3,8 +3,7 @@ import perfil from './../img/perfil.jpeg';
 import Experiencias from './../components/Experiencias/index';
 import Projetos from './../components/Projetos/index';
 import Redes from './../components/Redes/index.js';
-import Footer from './../components/Footer/index.js';
-import Certificados from '../components/Certificados/index.js';
+
 
 export default function Home() {
 
@@ -17,7 +16,7 @@ export default function Home() {
         <Title>
           <h1>Flávia Ferrari</h1>
         </Title>
-        <Description>
+        <Description> 
           <div className="border">
             <p>Olá, meu nome é Flávia Ferrari, tenho 20 anos de idade e sou programadora   iniciante, mas já tenho alguns pequenos projetos no github.<br /><br />
             </p>

@@ -3,8 +3,6 @@ import styled from "styled-components";
 export const ContainerCardExperiencias = styled.div`
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
-    /* width: 100%; */
     margin: 15px 20px;
     border-bottom: 3px solid #4B4952;
     font-family: 'Courier New', Courier, monospace;
@@ -22,7 +20,6 @@ export const TD = styled.h4 `
 
 export const TC = styled.h3 `
     font-weight: 1000;
-    /* font-size: 2rem; */
     align-items: center;
     margin: 5px 5px 0px;
     flex-wrap: wrap;
@@ -31,7 +28,6 @@ export const TC = styled.h3 `
 
 export const TE = styled.h2 `
     font-weight: 1000;
-    /* font-size: 2rem; */
     align-items: center;
     margin: 5px 5px 0px;
     flex-wrap: wrap;

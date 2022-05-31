@@ -38,7 +38,6 @@ export const Description = styled.div`
   align-items: center;
   padding: 16px;
   top: 178px;
-  /* left: 555px; */
   left: 746px;
   color: #fff;
 `
@@ -47,15 +46,5 @@ export const PBlack = styled.p`
   color: #000000;
 `
 
-
-// export const Projeto = styled.div`
-//   position: absolute;
-//   top: 420px;
-//   left: 190px;
-
-// `
-// export const TProjeto = styled.h1`
-//   font-size: 2rem;
-// `
 
 

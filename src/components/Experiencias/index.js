@@ -1,5 +1,5 @@
 
-import CardExperiencias from '../CardExperiencias/index.js';
+import CardExperiencias from '../CardExperiencias/index';
 import { ContainerExperiencias, TExperiencias } from './styled.js';
 
 export default function Experiencias(){

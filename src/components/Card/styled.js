@@ -6,7 +6,6 @@ export const ContainerP = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  /* height: 100px; */
   margin: 50px 280px 20px;
   border-bottom: 3px solid #4B4952;
   font-family: 'Courier New', Courier, monospace;

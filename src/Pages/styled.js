@@ -37,7 +37,7 @@ export const Description = styled.div`
   border: 3px solid #4B4952;
   align-items: center;
   padding: 16px;
-  top: 160px;
+  top: 178px;
   /* left: 555px; */
   left: 746px;
   color: #fff;

@@ -8,12 +8,12 @@ export default function Projetos() {
         <ContainerProjeto>
             <TProjeto>Projetos</TProjeto>
             <Card titulo="Blog Codar" link="https://github.com/ferrariflaviaa/Blog-Codar"
-                descricao="link do projeto" />
+                descricao="Link do projeto" />
             <Card titulo="WhyZap" link="https://github.com/ferrariflaviaa/WhyZap"
-                descricao="link do projeto" />
-            <Card titulo="Projeto Pokdex" link="https://github.com/ferrariflaviaa/Projeto-Pokdex-"
-                descricao="link do projeto" />
-            <Card titulo="desenho" link="https://www.linkedin.com/in/dev-flavia-ferrari/" descricao="link do projeto" />
+                descricao="Link do projeto" />
+            <Card titulo="Projeto Pokedex" link="https://github.com/ferrariflaviaa/Projeto-Pokdex-"
+                descricao="Link do projeto" />
+            <Card titulo="Jogo de Xadrez" link="https://github.com/ferrariflaviaa/chess_system_java" descricao="Link do projeto" />
 
         </ContainerProjeto>
     )
